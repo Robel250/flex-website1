@@ -1,0 +1,215 @@
+#home{ max-width: 100vw;
+    height: 100vh;
+    overflow:hiden;
+}
+.page1{ background-image: url(main\ bg.jpg);
+    background-repeat: no-repeat;
+    overflow:;
+    max-width: 100vw;
+   height: 100vh;
+   backdrop-filter: blur(-100px);
+}
+
+h4{position: absolute;
+    margin: 25px;
+     text-indent: 20px;
+    color: white;
+    font-size: 30px;
+}
+ul{list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+li{ text-decoration: none;
+    padding-right:  50px;
+    margin-top: 25px;
+}
+a{ text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.Responsive{display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+    
+}
+
+h1{font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: ;
+}
+h2{ position: relative;
+margin-top: 0px;}
+.button1{ position: relative;
+margin-top: 20px;
+width: 200px;
+height: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(35, 35, 181);
+border: none;
+color: white;
+border-radius: 8px;
+}
+button:hover{ background-color: rgba(64, 6, 150, 0.359);}
+@media( max-width:700px){ 
+li{margin-top: 140px;
+}
+    .text{ display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h4{ position: absolute;
+        margin-top: 80px;
+        margin-left:120px ;
+    }
+    h1{ text-align: center;}
+    .Responsive{  position: relative;
+                  margin-top: 100px;
+}
+}
+
+
+
+.main{ display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.h12{ display: flex;
+    justify-content: center; 
+    }
+    p{text-align: center;}
+.line{ border: 1px solid green;
+      width: 200px;
+      position: relative;
+      margin-top: 25px;
+       }
+.firstp{ display: flex;
+          flex-direction: row;
+          width: 95%;
+}
+.photo{ display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+}
+.sub1{ flex-basis: 20%;}
+.sub2{ flex-basis: 80%;}
+.lastp{ display: flex;
+       flex-direction: row;
+       width: 95%;
+}
+.sub3{ flex-basis: 80%;}
+.sub4{ flex-basis: 20%;}
+.firstp img{
+   height: 420px; 
+   padding: 5px;
+}
+.lastp img{
+   height: 380px; 
+   padding: 5px;
+}
+@media( max-width:700px){
+    img{width: 100px;}
+  
+     .main p{ width: 300px;}
+   
+}
+
+
+
+.line2{ border: 1px solid green;
+    width: 200px;
+    position: relative;
+margin-top: 25px;}
+
+
+#about{ position: relative;
+         margin-top: 100px;
+}
+p{ line-height: 25px;}
+.Feaures{ display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+h3{ text-align: center;}
+.Lore{display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items:center;
+       margin-top: 50px;
+ }
+ .web,.Editing,.Photography{ width: 300px;}
+ @media(max-width:700px){ 
+    h1{ font-size: 40px;}
+    .Feaures p{ width: 300px;  }
+    .Lore{ display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+ }
+
+
+
+
+ .line3{ border: 1px solid green;
+         width: 200px;
+         position: relative;
+margin-top: 25px;
+}
+.join{display: flex;
+      flex-direction:column ;
+       align-items: center;
+}
+.button2{ position: relative;
+    margin-left: 15px;
+    width: 200px;
+    height: 35px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(35, 35, 181);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    }
+    button:hover{ background-color: rgba(64, 6, 150, 0.359);}
+input{ position: relative;
+       margin-right: 15px;
+      width: 300px;
+       height: 28px;
+       
+}
+.text{ display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+}
+
+@media(max-width:700px){
+    .join p{ width: 300px;}
+    .text{ display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+    .button2{position: relative;
+             margin-top: 20px;
+    }
+}
+footer{ background-color: rgb(76, 79, 88);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    height: 180px;
+    margin-top: 50px;
+}
+footer p{ color: rgba(255, 255, 255, 0.399);
+font-size: 11px;
+line-height: 17px;
+}
+.blackbg{ background-color: black;
+    height: 20px;}
